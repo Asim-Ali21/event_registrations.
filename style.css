@@ -1,0 +1,86 @@
+/* Page Background */
+body {
+    background-color: #eaf2f8;
+    font-family: Arial, sans-serif;
+}
+
+/* Registration Card */
+.registration-card {
+    max-width: 500px;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Heading */
+#heading {
+    color: #0d6efd;
+    font-weight: bold;
+}
+
+/* Input Fields */
+.form-control,
+.form-select {
+    border-radius: 8px;
+}
+
+/* Buttons */
+button {
+    border-radius: 8px !important;
+}
+
+/* Instructions */
+#instructions {
+    display: none;
+}
+
+/* Event Details */
+#eventDetails {
+    display: none;
+}
+
+/* Registration Message */
+#message {
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Source Code Section */
+.source-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.source-section h2 {
+    color: #0d6efd;
+    margin-bottom: 25px;
+}
+
+pre {
+    background-color: #212529;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+}
+
+pre code {
+    color: #ffffff;
+}
+
+/* Responsive Design */
+@media (max-width: 576px) {
+
+    .registration-card {
+        width: 100%;
+    }
+
+    .source-section {
+        padding: 10px;
+    }
+
+}
